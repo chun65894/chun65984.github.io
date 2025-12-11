@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body
+        {
+            font-family: Verdana;
+        }
+        .left
+        {
+            float: left;
+            width: 25%;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        .left h3
+        {
+            font-size: 18px;
+            color: #ffffff;
+            padding: 12px;
+            background-color: #0a1c4e;
+        }
+        .left li
+        {
+            list-style-type: none;
+            padding: 10px;
+            border-bottom: dotted 1px #cccccc;
+        }
+        .main
+        {
+            float: right;
+            width: 75%;
+            padding: 15px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        img
+        {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (max-width:1000px)
+        {
+            /* For mobile phones: */
+            .main, .left
+            {
+                width: 100%;
+            }
+        }
+
+        #div0
+        {
+            overflow: auto;
+        }
+        #div1
+        {
+            background-color: #e5e5e5;
+            padding: 20px;
+            padding-left: 10%;
+            margin-top: 10%;
+            font-size: 1vw;
+        }
+        #logo
+        {
+            float: left;
+            width: 15%;
+        }
+        #main_menu
+        {
+            float: right;
+            margin-top: 2.5%;
+            font-family: '맑은고딕';
+            font-size: 1.5vw;
+        }
+        #main_menu li
+        {
+            display: inline;
+            margin-left: 2vw;
+        }
+        .clear
+        {
+            clear: both;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        a:link
+        {
+            color: #000000;
+        }
+        a:visited
+        {
+            color: #0000ff;
+        }
+        a:hover
+        {
+            color: #ff0000;
+        }
+        a:active
+        {
+            color: #800944;
+        }
+        header
+        {
+            padding: 0 5%;
+            margin: 0 auto;
+        }
+        .text3
+        {
+            font-size: 0.8vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="img/logo.png">
+            </a>
+        </div>
+        <nav id="main_menu">
+            <ul>
+                <li>
+                    <a href="novel.html">
+                        원작
+                    </a>
+                </li>
+                <li>
+                    <a href="characters.html">
+                        등장인물
+                    </a>
+                </li>
+                <li>
+                    <a href="stillcut.html">
+                        스틸컷
+                    </a>
+                </li>
+                <li>
+                    <a href="poster.html">
+                        포스터
+                    </a>
+                </li>
+                <li>
+                    <a href="belongings.html">
+                        소지품
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="clear"></div>
+
+    <div id="div0">
+        <div class="left">
+            <h3>
+                스틸컷
+            </h3>
+            <ul>
+                <li>
+                    오늘 밤, 세계에서 이 사랑이
+                </li>
+                <li>
+                    사라진다 해도
+                </li>
+                <li>
+                    영화의 아름다운 스틸컷들                 
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <img src="img/stillcut1.jpg">
+            <img src="img/stillcut2.jpg">
+            <img src="img/stillcut3.jpg">
+            <img src="img/stillcut4.jpg">
+            <img src="img/stillcut5.jpg">
+            <img src="img/stillcut6.jpg">
+            <img src="img/stillcut7.jpg">
+            <img src="img/stillcut8.jpg">
+            <img src="img/stillcut9.jpg">
+            <img src="img/stillcut10.jpg">
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div1">
+        &copy; 2022. TOHO 스튜디오 | 미디어캐슬 | 2022.11.30 대개봉
+        <div class="text3">
+            미치에다 슌스케 | 후쿠모토 리코 | 후루카와 코토네 | 하기와라 마사토 | 마츠모토 호노카 | 노마구치 토오루 | 미즈노 마키
+        </div>
+    </div>
+</body>
+</html>

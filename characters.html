@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body
+        {
+            font-family: Verdana;
+        }
+        img
+        {
+            width: 100%;
+        }
+        .main
+        {
+            float: left;
+            width: 50%;
+            padding: 15px 60px;
+            margin-top: 10px;
+        }
+        .right
+        {
+            float: right;
+            width: 50%;
+            padding: 70px;
+            margin-top: 20px;
+        }
+        .main2
+        {
+            float: right;
+            width: 50%;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        .left
+        {
+            float: left;
+            width: 50%;
+            padding: 70px;
+            margin-top: 20px;
+        }
+
+        @media only screen and (max-width:1000px)
+        {
+            /* For mobile phones: */
+            .main, .right, .main2, .left
+            {
+                width: 100%;
+            }
+        }
+
+        #div0
+        {
+            overflow: auto;
+        }
+        #div1
+        {
+            background-color: #e5e5e5;
+            padding: 20px;
+            padding-left: 10%;
+            margin-top: 10%;
+            font-size: 1vw;
+        }
+        #div2
+        {
+            overflow: auto;
+            background-color: #e9e9e9;
+        }
+        #logo
+        {
+            float: left;
+            width: 15%;
+        }
+        #main_menu
+        {
+            float: right;
+            margin-top: 2.5%;
+            font-family: '맑은고딕';
+            font-size: 1.5vw;
+        }
+        #main_menu li
+        {
+            display: inline;
+            margin-left: 2vw;
+        }
+        .clear
+        {
+            clear: both;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        a:link
+        {
+            color: #000000;
+        }
+        a:visited
+        {
+            color: #0000ff;
+        }
+        a:hover
+        {
+            color: #ff0000;
+        }
+        a:active
+        {
+            color: #800944;
+        }
+        header
+        {
+            padding: 0 5%;
+            margin: 0 auto;
+        }
+        .text3
+        {
+            font-size: 0.8vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="img/logo.png">
+            </a>
+        </div>
+        <nav id="main_menu">
+            <ul>
+                <li>
+                    <a href="novel.html">
+                        원작
+                    </a>
+                </li>
+                <li>
+                    <a href="characters.html">
+                        등장인물
+                    </a>
+                </li>
+                <li>
+                    <a href="stillcut.html">
+                        스틸컷
+                    </a>
+                </li>
+                <li>
+                    <a href="poster.html">
+                        포스터
+                    </a>
+                </li>
+                <li>
+                    <a href="belongings.html">
+                        소지품
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="clear"></div>
+
+    <div id="div0">
+        <div class="main">
+            <img src="img/character1.jpg">
+        </div>
+
+        <div class="right">
+            <h2>
+                카미야 토루
+            </h2>
+            <br>
+            <p>
+                이야기의 남자주인공. 고등학교 2학년 학생이다. 친구를 구하기 위해 협박을 받아 히노 마오리에게 거짓 고백을 하게 되는데...
+            </p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div2">
+        <div class="main2">
+            <img src="img/character2.jpg">
+        </div>
+
+        <div class="left">
+            <h2>
+                히노 마오리
+            </h2>
+            <br>
+            <p>
+                이야기의 여주인공. 잠을 자고 나면 전날의 기억을 모두 잃어버리는 선행성 기억상실증을 앓고 있다.
+                매일 아침 자신의 상태를 기록한 노트를 통해 기억을 되찾는다.
+            </p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div0">
+        <div class="main">
+            <img src="img/character3.jpg">
+        </div>
+
+        <div class="right">
+            <h2>
+                와타야 이즈미
+            </h2>
+            <br>
+            <p>
+                히노 마오리의 가장 친한 친구이자 조력자. 그녀의 병을 알고 있으며 곁에서 도움을 준다.
+            </p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    
+    <div id="div2">
+        <div class="main2">
+            <img src="img/character4.jpg">
+        </div>
+
+        <div class="left">
+            <h2>
+                카미야 유키히코
+            </h2>
+            <br>
+            <p>
+                카미야 토루의 아버지. 아내를 심장병으로 잃고 소설가로서의 꿈이 좌절된다.
+            </p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div0">
+        <div class="main">
+            <img src="img/character5.jpg">
+        </div>
+
+        <div class="right">
+            <h2>
+                카미야 사나에
+            </h2>
+            <br>
+            <p>
+                카미야 토루의 누나. 소설가로서 성공했지만 아버지의 눈치가 보여 독립하고 몰래 활동중이다.
+            </p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div2">
+        <div class="main2">
+            <img src="img/character6.png">
+        </div>
+
+        <div class="left">
+            <h2>
+                히노 코지
+            </h2>
+            <br>
+            <p>
+                히노 마오리의 아버지. 아내와 함께 딸을 걱정하고 돌봐준다.
+            </p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div0">
+        <div class="main">
+            <img src="img/character7.jpg">
+        </div>
+
+        <div class="right">
+            <h2>
+                히노 케이코
+            </h2>
+            <br>
+            <p>
+                히노 마오리의 어머니. 남편과 함께 딸을 걱정하고 돌봐준다.
+            </p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div1">
+        &copy; 2022. TOHO 스튜디오 | 미디어캐슬 | 2022.11.30 대개봉
+        <div class="text3">
+            미치에다 슌스케 | 후쿠모토 리코 | 후루카와 코토네 | 하기와라 마사토 | 마츠모토 호노카 | 노마구치 토오루 | 미즈노 마키
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body
+        {
+            font-family: Verdana;
+        }
+        .img
+        {
+            float: left;
+            width: 20%;
+            padding: 50px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        img
+        {
+            width: 100%;
+            border-radius: 20px;
+        }
+        .main
+        {
+            padding: 20px;
+            margin-top: 10px;
+        }
+        
+        @media only screen and (max-width:1000px)
+        {
+            /* For mobile phones: */
+            .main, .img
+            {
+                width: 100%;
+            }
+        }
+
+        #div0
+        {
+            overflow: auto;
+        }
+        #div1
+        {
+            background-color: #e5e5e5;
+            padding: 20px;
+            padding-left: 10%;
+            margin-top: 10%;
+            font-size: 1vw;
+        }
+        #logo
+        {
+            float: left;
+            width: 15%;
+        }
+        #main_menu
+        {
+            float: right;
+            margin-top: 2.5%;
+            font-family: '맑은고딕';
+            font-size: 1.5vw;
+        }
+        #main_menu li
+        {
+            display: inline;
+            margin-left: 2vw;
+        }
+        .clear
+        {
+            clear: both;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        a:link
+        {
+            color: #000000;
+        }
+        a:visited
+        {
+            color: #0000ff;
+        }
+        a:hover
+        {
+            color: #ff0000;
+        }
+        a:active
+        {
+            color: #800944;
+        }
+        header
+        {
+            padding: 0 5%;
+            margin: 0 auto;
+        }
+        .text3
+        {
+            font-size: 0.8vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="img/logo.png">
+            </a>
+        </div>
+        <nav id="main_menu">
+            <ul>
+                <li>
+                    <a href="novel.html">
+                        원작
+                    </a>
+                </li>
+                <li>
+                    <a href="characters.html">
+                        등장인물
+                    </a>
+                </li>
+                <li>
+                    <a href="stillcut.html">
+                        스틸컷
+                    </a>
+                </li>
+                <li>
+                    <a href="poster.html">
+                        포스터
+                    </a>
+                </li>
+                <li>
+                    <a href="belongings.html">
+                        소지품
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="clear"></div>
+
+    <div id="div0">
+
+        <div class="img">
+            <img src="img/notebook.png">
+            <div class="main">
+            <h2>
+                수첩
+            </h2>
+            <p>
+                카미야 토루의 정보를 적는 노트
+            </p>
+            </div>
+        </div>
+        
+        <div class="img">
+            <img src="img/pen.jpg">
+            <div class="main">
+            <h2>
+                펜
+            </h2>
+            <p>
+                수첩에 필기하기 위한 펜
+            </p>
+            </div>
+        </div>
+        
+        <div class="img">
+            <img src="img/laptop.jpg">
+            <div class="main">
+            <h2>
+                노트북
+            </h2>
+            <p>
+                매일 아침 일기를 읽는 노트북
+            </p>
+            </div>
+        </div>
+
+         <div class="img">
+            <img src="img/phone.jpg">
+            <div class="main">
+            <h2>
+                핸드폰
+            </h2>
+            <p>
+                추억의 사진과 동영상이 담겨있는 핸드폰
+            </p>
+            </div>
+        </div>
+
+         <div class="img">
+            <img src="img/bicycle.jpg">
+            <div class="main">
+            <h2>
+                자전거
+            </h2>
+            <p>
+                카미야 토루와의 추억이 담겨있는 자전거
+            </p>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="img">
+            <img src="img/painting.jpg">
+            <div class="main">
+            <h2>
+                그림
+            </h2>
+            <p>
+                기억을 잊지않기 위한 노력. 카미야 도루의 초상화를 많이 그렸다.
+            </p>
+            </div>
+        </div>
+        
+        <div class="img">
+            <img src="img/place.jpg">
+            <div class="main">
+            <h2>
+                소중한 건 소중한 장소에
+            </h2>
+            <p>
+                가장 소중한 것들을 숨겨두는 장소. 카미야 도루에 관한 물건들도 있다.
+            </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div1">
+        &copy; 2022. TOHO 스튜디오 | 미디어캐슬 | 2022.11.30 대개봉
+        <div class="text3">
+            미치에다 슌스케 | 후쿠모토 리코 | 후루카와 코토네 | 하기와라 마사토 | 마츠모토 호노카 | 노마구치 토오루 | 미즈노 마키
+        </div>
+    </div>
+</body>
+</html>

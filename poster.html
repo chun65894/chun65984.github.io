@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body
+        {
+            font-family: Verdana;
+        }
+        .img
+        {
+            float: left;
+            width: 33%;
+            padding: 30px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .img2
+        {
+            float: left;
+            width: 50%;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        img
+        {
+            width: 100%;
+        }
+        .main
+        {
+            padding: 20px;
+            margin-top: 10px;
+        }
+        
+        @media only screen and (max-width:1000px)
+        {
+            /* For mobile phones: */
+            .main, .img, .img2
+            {
+                width: 100%;
+            }
+        }
+
+        #div0
+        {
+            overflow: auto;
+        }
+        #div1
+        {
+            background-color: #e5e5e5;
+            padding: 20px;
+            padding-left: 10%;
+            margin-top: 10%;
+            font-size: 1vw;
+        }
+        #logo
+        {
+            float: left;
+            width: 15%;
+        }
+        #main_menu
+        {
+            float: right;
+            margin-top: 2.5%;
+            font-family: '맑은고딕';
+            font-size: 1.5vw;
+        }
+        #main_menu li
+        {
+            display: inline;
+            margin-left: 2vw;
+        }
+        .clear
+        {
+            clear: both;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        a:link
+        {
+            color: #000000;
+        }
+        a:visited
+        {
+            color: #0000ff;
+        }
+        a:hover
+        {
+            color: #ff0000;
+        }
+        a:active
+        {
+            color: #800944;
+        }
+        header
+        {
+            padding: 0 5%;
+            margin: 0 auto;
+        }
+        h1
+        {
+            background-color: #0a1c4e;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin: 50px;
+        }
+        .text3
+        {
+            font-size: 0.8vw;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="img/logo.png">
+            </a>
+        </div>
+        <nav id="main_menu">
+            <ul>
+                <li>
+                    <a href="novel.html">
+                        원작
+                    </a>
+                </li>
+                <li>
+                    <a href="characters.html">
+                        등장인물
+                    </a>
+                </li>
+                <li>
+                    <a href="stillcut.html">
+                        스틸컷
+                    </a>
+                </li>
+                <li>
+                    <a href="poster.html">
+                        포스터
+                    </a>
+                </li>
+                <li>
+                    <a href="belongings.html">
+                        소지품
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="clear"></div>
+
+    <div id="div0">
+
+        <h1>
+            한국 포스터
+        </h1>
+
+        <div class="img">
+            <img src="img/poster1.jpg">
+            <div class="main">
+            <h2>
+                티저 포스터
+            </h2>
+            </div>
+        </div>
+        
+        <div class="img">
+            <img src="img/poster2.jpg">
+            <div class="main">
+            <h2>
+                메인 포스터
+            </h2>
+            </div>
+        </div>
+        
+        <div class="img">
+            <img src="img/poster3.jpg">
+            <div class="main">
+            <h2>
+                하나비 포스터
+            </h2>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        
+        <h1>
+            일본 포스터
+        </h1>
+
+        <div class="img2">
+            <img src="img/poster5.jpg">
+            <div class="main">
+            <h2>
+                선셋 포스터
+            </h2>
+            </div>
+        </div>
+
+        <div class="img2">
+            <img src="img/poster4.jpg">
+            <div class="main">
+            <h2>
+                나이트 포스터
+            </h2>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+    <div id="div1">
+        &copy; 2022. TOHO 스튜디오 | 미디어캐슬 | 2022.11.30 대개봉
+        <div class="text3">
+            미치에다 슌스케 | 후쿠모토 리코 | 후루카와 코토네 | 하기와라 마사토 | 마츠모토 호노카 | 노마구치 토오루 | 미즈노 마키
+        </div>
+    </div>
+</body>
+</html>
